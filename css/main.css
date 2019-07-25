@@ -3,10 +3,14 @@ body {
     color: #ebebeb;
 }
 
+.row {
+    margin-top: 1%;
+}
+
 #temp {    
     background: #252a34;
 }
-
+ /*NAVBAR*/
 #my-navbar { 
     background-color: #252a34;    
     border-bottom: solid 1px;    
@@ -26,7 +30,34 @@ a.navbar-brand {
 div#navbarCollapse {
     margin-right: 10%;
 }
+/*NAVBAR*/
 
-section#about-me {
+section#main-section {
     padding-top: 75px;
+}
+
+img#portrait-img {
+    padding: 15px;
+    border-radius: 50%;  
+    width: 100%;      
+}
+
+img.img-project {
+    height: 300px;
+    min-width: 150px;
+}
+
+.diff1 {
+    background: #452a34;
+}
+
+.diff2 {
+    background: #7f2a34;
+}
+
+/*FOOTER*/
+footer {
+    margin-top: 1%;
+    border-top: solid 1px; 
+    border-bottom-color: #fff;    
 }
