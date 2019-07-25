@@ -1,0 +1,32 @@
+body {
+    background: #252a34;
+    color: #ebebeb;
+}
+
+#temp {    
+    background: #252a34;
+}
+
+#my-navbar { 
+    background-color: #252a34;    
+    border-bottom: solid 1px;    
+    border-bottom-color: #fff;
+    padding: 15px 0 15px 0;
+}
+
+li.nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a.navbar-brand {
+    margin-left: 10%;
+}
+
+div#navbarCollapse {
+    margin-right: 10%;
+}
+
+section#about-me {
+    padding-top: 75px;
+}
