@@ -31,15 +31,38 @@ div#navbarCollapse {
     margin-right: 10%;
 }
 /*NAVBAR*/
+.skill-elem{
+    font-size: 20px;
+    height: 40px;
+    text-align: center;    
+    background-color: #384050;
+    margin-top: 5px;
+}
+.empty-row {
+    height: 20px;
+}
+
+.skill-elem:hover{
+    background-color: #475063;
+    color: #167ddd;
+}
 
 section#main-section {
     padding-top: 75px;
 }
 
 img#portrait-img {
-    padding: 15px;
+    
+    /*max-width:300px;
+    max-height:300px;*/
+    width: auto;
+    height: auto;
     border-radius: 50%;  
+
+    /*
+    padding: 15px;
     width: 100%;      
+    */
 }
 
 img.img-project {
